@@ -9,3 +9,6 @@ Desde luego, es tarea del futuro programador estructurar un mapa mental para ele
 El modo de interactuar con este repositorio es diciente. El programa basico es ***1. hello world***, a mayor número de indice más complejo es el ejemplo.
 
 ## ⛵ Buen viento y buena mar en este camino de aprendizaje!!!🧞 
+  
+  
+... Te daras cuenta que el contenido de los ejercicios prácticos esta en **inglés**...Sí, en inglés. Esto es porque de acuerdo a mi experiencia lo mejor es realizar la interacción en ambos campos al mismo tiempo. Afianzar el inglés mientras estas codificando es una buena práctica de programación ya que los mejores recursos en el campo de la tecnología siempre esta en este idioma 📙
