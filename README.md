@@ -1,6 +1,6 @@
-# 👋 Hola Mundo
+# 📌 Ejercicios de programación en C++
 
-## 📌 Ejercicios de programación en C++
+## 👋 Hola Mundo
 
 Este es un repositorio creado con el fin de brindar ejemplos prácticos para ejercitar y afianzar el aprendizaje del lenguaje de programación **C++**. Desde luego, lo más importante es aprender paso a paso, agregando elementos que enriquezcan el conocimento adquirido y al mismo tiempo ir agregando nuevos conjuntos de instrucciones que permitan interactuar con los datos de nuevas maneras.
 
