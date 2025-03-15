@@ -58,7 +58,7 @@ a
 
 ## Explanation
 
-Print int 3,
+Print int 3, \n
 followed by long 12345678912345,
 followed by char a,
 followed by float 334.230,
