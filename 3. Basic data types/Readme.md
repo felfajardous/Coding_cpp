@@ -46,7 +46,8 @@ Print each element on a new line in the same order it was received as input. Not
 a
 334.23 
 14049.30493
-Sample Output
+
+## Sample Output
 
 3
 12345678912345
