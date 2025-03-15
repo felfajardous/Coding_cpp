@@ -1,4 +1,4 @@
-## Conditional statements
+# Conditional statements 🔀
 
 *if* and *else* are two of the most frequently used conditionals in C/C++, and they enable you to execute zero or one conditional statement among many such dependent conditional statements. We use them in the following ways:
 
@@ -43,19 +43,19 @@
 
 Given a positive integer *n*, do the following:
 
-- If *1<=n<=9*, print the lowercase English word corresponding to the number (e.g., one for , two for , etc.).  
-- If *n>9*, print *Greater than 9*.
+- If $1 \leq n \leq 9$, print the lowercase English word corresponding to the number (e.g., one for , two for , etc.).  
+- If $n>9$, print *Greater than 9*.
 
 ### Input Format
 
 A single integer, *n*.
 
 ### Constraints
-- *1<=n<=10^9* 
+- $1 \leq n \leq 10^{~9}$ 
 
 ### Output Format
 
-If *1<=n <=9* , then print the lowercase English word corresponding to the number (e.g., one for *1*, two for *2* , etc.); otherwise, print *Greater than 9*.
+If $1 \leq n \leq 9$ , then print the lowercase English word corresponding to the number (e.g., one for *1*, two for *2* , etc.); otherwise, print *Greater than 9*.
 
 ### Sample Input 0
 
@@ -85,4 +85,4 @@ eight is the English word for the number *8* .
         Greater than 9
 ### Explanation 2
 
- *n=44* is greater than *9* , so we print *Greater than 9*
+ $n=44$ is greater than *9* , so we print *Greater than 9*
