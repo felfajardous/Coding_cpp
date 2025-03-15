@@ -4,7 +4,7 @@
 ## Objective
 This is a simple challenge to help you practice printing to stdout. You may also want to complete Solve Me First in C++ before attempting this challenge.
 
-We're starting out by printing the most famous computing phrase of all time! In the editor below, use either <u>printf</u> or <u>cout</u> to print the string "Hello World"  to stdout.
+We're starting out by printing the most famous computing phrase of all time! In the editor below, use either <u> printf </u> or <u> cout </u> to print the string "Hello World"  to stdout.
 
 The more popular command form is cout. It has the following basic form:
 
@@ -12,7 +12,7 @@ cout<<value_to_print<<value_to_print;
 
 Any number of values can be printed using one command as shown.
 
-The <u>printf</u> command comes from C language. It accepts an optional format specification and a list of variables. Two examples for printing a string are:
+The <u> printf </u> command comes from C language. It accepts an optional format specification and a list of variables. Two examples for printing a string are:
 
 printf("%s", string); printf(string);
 
