@@ -45,7 +45,7 @@ Print each element on a new line in the same order it was received as input. Not
 3  
 12345678912345  
 a  
-334.23  
+334.230  
 14049.30493  
 
 ## Sample Output
