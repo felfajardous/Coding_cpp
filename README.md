@@ -8,4 +8,4 @@ Desde luego, es tarea del futuro programador estructurar un mapa mental para ele
 
 El modo de interactuar con este repositorio es diciente. El programa basico es ***1. hello world*** a mayor número de indice más complejo es el ejemplo.
 
-# ⛵ Buen viento y buena mar en este camino de aprendizaje!!!
+## ⛵ Buen viento y buena mar en este camino de aprendizaje!!!
