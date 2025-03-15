@@ -12,7 +12,7 @@ and we want to use cin to read the input "High 5" from stdin. We can do this wit
 cin >> s >> n;
 
 This reads the first word ("High") from stdin and saves it as string *s* , then reads the second word ("5") from stdin and saves it as integer *n* . If we want to print these values to stdout, separated by a space, we write the following code:
-}
+
 
 cout << s << " " << n << endl;
 
