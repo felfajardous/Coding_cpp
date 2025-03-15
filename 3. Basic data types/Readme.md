@@ -42,23 +42,25 @@ Print each element on a new line in the same order it was received as input. Not
 
 ## Sample Input
 
-3 12345678912345
-a
-334.23 
-14049.30493
-Sample Output
+3  
+12345678912345  
+a  
+334.230  
+14049.30493  
 
-3
-12345678912345
-a
-334.230
-14049.304930000
+## Sample Output
+
+3  
+12345678912345  
+a  
+334.230  
+14049.304930000  
 
 
 ## Explanation
 
-Print int 3,
-followed by long 12345678912345,
-followed by char a,
-followed by float 334.230,
+Print int 3,  
+followed by long 12345678912345,  
+followed by char a,  
+followed by float 334.230,  
 followed by double 14049.304930000
