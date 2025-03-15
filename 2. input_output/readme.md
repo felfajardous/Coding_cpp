@@ -33,10 +33,10 @@ One line that contains 3 space-separated integers:*a*, *b* , and *c*.
 
 Print the sum of the three numbers on a single line.
 
-##Sample Input
+## Sample Input
 
 1 2 7
-##Sample Output
+## Sample Output
 
 10
 
