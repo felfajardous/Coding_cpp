@@ -78,7 +78,7 @@ We perform `q = 2` queries:
 - The element at index `j = 3` is **9**.
 
 ---
-# Dynamic Array of Arrays in C++
+# Practice case: Dynamic Array of Arrays in C++
 
 In C++, you can create a dynamic 2D array (array of arrays) using `new` and deallocate it properly using `delete`. This allows flexibility when the array size is determined at runtime.
 
