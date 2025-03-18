@@ -78,6 +78,70 @@ We perform `q = 2` queries:
 - The element at index `j = 3` is **9**.
 
 ---
+# Dynamic Array of Arrays in C++
+
+In C++, you can create a dynamic 2D array (array of arrays) using `new` and deallocate it properly using `delete`. This allows flexibility when the array size is determined at runtime.
+
+## Creating a Dynamic 2D Array
+To create a dynamic array of arrays, follow these steps:
+1. Allocate memory for an array of pointers.
+2. Allocate memory for each row separately.
+
+### Example:
+```cpp
+#include <iostream>
+
+int main() {
+    int rows, cols;
+    std::cout << "Enter the number of rows and columns: ";
+    std::cin >> rows >> cols;
+
+    // Step 1: Create an array of pointers
+    int** arr = new int*[rows];
+
+    // Step 2: Allocate memory for each row
+    for (int i = 0; i < rows; i++) {
+        arr[i] = new int[cols];
+    }
+
+    // Assign values and print the array
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            arr[i][j] = (i + 1) * (j + 1); // Example assignment
+            std::cout << arr[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    // Step 3: Deallocate memory
+    for (int i = 0; i < rows; i++) {
+        delete[] arr[i]; // Delete each row
+    }
+    delete[] arr; // Delete the array of pointers
+
+    return 0;
+}
+```
+
+## Memory Deallocation
+To prevent memory leaks, ensure that:
+- Each row (`arr[i]`) is deleted first using `delete[] arr[i];`
+- The array of pointers (`arr`) is deleted last using `delete[] arr;`
+
+### Why is `delete` important?
+Proper memory deallocation is crucial in C++ for the following reasons:
+1. **Avoiding Memory Leaks:** When memory is allocated using `new`, it remains in the heap until explicitly freed. If `delete` is not used, the program will consume increasing amounts of memory, leading to degraded performance and potential crashes.
+2. **Efficient Resource Management:** Freeing memory when it is no longer needed ensures that other processes or parts of the program can use it, improving system efficiency.
+3. **Preventing Undefined Behavior:** Not freeing dynamically allocated memory can result in unexpected behavior, including program crashes or corrupt data.
+4. **Best Practice in Large Applications:** In large-scale applications, improper memory management can cause serious issues, such as memory fragmentation, making debugging more difficult.
+
+## Key Points
+✅ Dynamic allocation allows flexibility in defining array sizes at runtime.
+✅ Memory must be properly deallocated to avoid leaks.
+✅ This approach provides better control than stack-based arrays but requires careful memory management.
+✅ Using `delete` ensures efficient use of resources and prevents memory leaks, improving application stability.
+
+By following this method, you can create and manage dynamic 2D arrays in C++ efficiently while ensuring proper memory handling.
 
 
 
