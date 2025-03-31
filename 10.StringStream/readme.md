@@ -1,9 +1,9 @@
-# StringStream 🔢 ➡️ 1️⃣ 2️⃣ 3️⃣ 4️⃣
+# StringStream
 
 ## Introduction
 In this challenge, we work with `stringstream` in C++.
 
-`stringstream` is a stream class used to operate on strings. It allows input/output operations on memory-based string streams. This class is particularly useful for parsing different types of data.
+`stringstream` is a stream class used to operate on strings. It allows input/output operations on memory-based string streams. This class is particularly useful for parsing different types of data. 
 
 ### Commonly Used Operators and Methods
 - **Operator `>>`**: Extracts formatted data.
@@ -72,4 +72,31 @@ A single line containing integers separated by commas.
 ```
 
 This approach makes it easy to parse formatted data from strings using `stringstream` in C++.
+
+## Raw Code to Complete
+Below is the base code that needs to be completed as part of the activity:
+
+```cpp
+#include <sstream>
+#include <vector>
+#include <iostream>
+using namespace std;
+
+vector<int> parseInts(string str) {
+    // Complete this function
+    
+    return numbers_array;
+}
+
+int main() {
+    string str;
+    cin >> str;
+    vector<int> integers = parseInts(str);
+    for(int i = 0; i < integers.size(); i++) {
+        cout << integers[i] << "\n";
+    }
+    
+    return 0;
+}
+```
 
