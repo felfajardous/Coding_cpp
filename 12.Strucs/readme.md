@@ -1,4 +1,4 @@
-# Student Struct in C++
+# Student Struct in C++ 📑
 
 ## Overview
 A `struct` in C++ is a way to group multiple related fields into a single composite data structure. This concept is fundamental in Object-Oriented Programming as it helps organize related data under a single entity.
@@ -50,12 +50,6 @@ carmack
 using namespace std;
 
 // Define the struct here
-struct Student {
-    int age;
-    string first_name;
-    string last_name;
-    int standard;
-};
 
 int main() {
     Student st;
